@@ -9,8 +9,6 @@ The symlink in this example repo is in:
 ```.
 |-- README.md
 |-- app
-|   |-- dist
-|   |   `-- main.js
 |   |-- package.json
 |   |-- src
 |   |   |-- index.js
