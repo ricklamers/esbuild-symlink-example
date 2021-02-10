@@ -28,4 +28,5 @@ This use case is particularly useful in the context of larger monorepos.
 Clone the repo. Observe:
 
 `npm run build` succeeds in building, as webpack is configured to not resolve symlinks.
+
 `npm run esbuild` fails as esbuild resolves the symlink and cannot find `lodash` as a result.
