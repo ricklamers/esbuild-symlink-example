@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "esbuild": "esbuild --bundle src/index.js --outfile=main.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.43",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
