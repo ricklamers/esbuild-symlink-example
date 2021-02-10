@@ -6,7 +6,7 @@ In particular, when `moduleA/utils` references modules that are available in the
 
 The symlink in this example repo is in:
 
-.
+```.
 |-- README.md
 |-- app
 |   |-- dist
@@ -19,6 +19,7 @@ The symlink in this example repo is in:
 |   `-- webpack.config.js
 `-- moduleA
     `-- utils.js
+```
 
 This use case is particularly useful in the context of larger monorepos.
 
